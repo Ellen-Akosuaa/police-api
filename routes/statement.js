@@ -12,4 +12,6 @@ statementRouter.get('/statements/:id', getStatement);
 statementRouter.patch('/statements/:id', updateStatement);
 
 statementRouter.delete('/statements/:id', deleteStatement);
+
+
 export default statementRouter; 
